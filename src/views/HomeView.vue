@@ -24,7 +24,7 @@
 <style>
 
   main {
-  min-height: calc(100vh - 94px);
+  min-height: calc(100vh - 127px);
 }
 /* start landing*/
 

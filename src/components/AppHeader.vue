@@ -13,7 +13,7 @@
           </div>
           <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <div class="flex flex-shrink-0 items-center">
-              <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company" />
+              <h1 class="text-sky-100 w-auto text-xl">Amine Triki</h1> 
             </div>
             <div class="hidden sm:ml-6 sm:block">
               <div class="flex space-x-4">
@@ -29,15 +29,9 @@
               </div>
             </div>
           </div>
-          <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-            <button type="button" class="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
-              <span class="absolute -inset-1.5" />
-              <span class="sr-only">View notifications</span>
-              <BellIcon class="h-6 w-6" aria-hidden="true" />
-            </button>
-  
-            <!-- Profile dropdown -->
-            
+          <div class=" inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+           
+            <img class="h-8 width-auto" src="/src/assets/logo.webp" alt="logo Amine Triki"  >
           </div>
         </div>
       </div>
@@ -60,13 +54,13 @@
   
   <script setup>
   import { Disclosure, DisclosureButton, DisclosurePanel, } from '@headlessui/vue'
-  import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/24/outline'
+  import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
   
   const navigation = [
     { name: 'Home', href: '/', current: false },
-    { name: 'about', href: '/about', current: false },  
+    { name: 'Skills', href: '/skills', current: false },  
     { name: 'Projects', href: '/projects', current: false },
-    { name: 'contact', href: '/contact', current: false },
+    { name: 'Contact Me', href: '/contact', current: false },
   ]
   </script>
   
